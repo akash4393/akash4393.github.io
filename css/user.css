@@ -2,12 +2,12 @@
 
 }
 
-.row {
+/*.row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
-}
+}*/
 
 #menu{
 	margin-left: -6%;
@@ -15,7 +15,7 @@
 
 .menu-button{
 	text-align: center;
-	margin-top: 6%;
+	line-height: 7em;
 	position: relative;
 	font-family: Gadget, Arial Black, sans-serif; 
 	font-size: 120%; 
@@ -26,31 +26,35 @@
 	color: #89CFD4;
 }
 #myNameInTitle{
+	line-height: 2.2em;
 	text-align: center;
-	margin-top: 0;
+	
 	position: relative;
 	font-family: Helvetica, Arial, sans-serif; 
 	font-style: bold; 
-	font-size: 300%; 
+	font-size: 4em; 
 	color: #5D5D5D;
 }
 
 #belowMyNameInTitle{
+
 	text-align: center;
 	font-family: Helvetica, Arial, sans-serif; 
 	font-style: bold; 
-	font-size: 40%; color: #5D5D5D; 
+	font-size: 0.4em; 
+	color: #5D5D5D; 
 	text-align: center; 
-	margin-top: -3.3%;
+	margin-top: -4.1em;
 	position: relative;
 }
 
 .full-circle-1 {
  background-color: rgb(230,33,63);
- height: 12em;
- -moz-border-radius:6em;
- -webkit-border-radius: 6em;
- width: 12em;
+ height: 10em;
+ -moz-border-radius:5em;
+ -webkit-border-radius: 5em;
+ width: 10em;
+ margin: 1em;
  
 }
 .full-circle-1:hover {
@@ -59,10 +63,12 @@
 }
 .full-circle-2 {
  background-color: rgb(107,217,222);
- height: 12em;
- -moz-border-radius:6em;
- -webkit-border-radius: 6em;
- width: 12em;
+ height: 10em;
+ -moz-border-radius:5em;
+ -webkit-border-radius: 5em;
+ width: 10em;
+ margin: 1em;
+ 
 }
 .full-circle-2:hover {
 	transition: background-color 0.3s ease;
@@ -70,28 +76,42 @@
 }
 .full-circle-3 {
  background-color: rgb(226,221,26);
-height: 12em;
- -moz-border-radius:6em;
- -webkit-border-radius: 6em;
- width: 12em;
+height: 10em;
+ -moz-border-radius:5em;
+ -webkit-border-radius: 5em;
+ width: 10em;
+ margin: 1em;
+
 }
 .full-circle-3:hover {
 	transition: background-color 0.3s ease;
 	background-color: rgb(206,201,46);
 }
 
+.text-inside-circle{
+	line-height: 10em;
+	text-align: center;
+	font-family: Gadget, Arial Black, sans-serif;
+	font-size: 1em;
+	color: rgb(255,255,255);
+}
+
+
 .circle-image{
 	position: center;
 	background-image: url('../src/my_img.jpg');
- 	height: 30em;
- 	-moz-border-radius:15em;
- 	-webkit-border-radius: 15em;
- 	width: 30em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+	width: 26em;
+ 	height: 26em;
+ 	-moz-border-radius:13em;
+ 	-webkit-border-radius: 13em;
+ 	width: 26em;
 }
 
 #hi-text{
 	text-align: center;
-	margin-top: 0;
 	position: relative;
 	font-family: Helvetica, Arial, sans-serif; 
 	font-style: bold; 
@@ -112,176 +132,36 @@ height: 12em;
     position: relative;
    
 }
-
-#header-sticky-wrapper{
-	margin-top: -23px;
+#body-container{
+	
 }
 
-
-.homediv{
-	/*background-color: #000000;*/
+.footer-class{
+	background-color: rgb(202, 53, 83);
+	min-height: 100px;
+}
+#phone-icon{
+	line-height: 2em;
+	font-size: 2em;
 	text-align: center;
-	position: absolute;
-	
-	
-	
 }
-.homediv:hover{
-	background-color: #4A4848;
+#mail-icon{
+	line-height: 2em;
+	font-size: 2em;
 	text-align: center;
-	position: absolute;
-	
-	
 }
-.projectdiv{
-	/*background-color: #000000;*/
+#follow-icon{
+	line-height: 2em;
+	font-size: 2em;
 	text-align: center;
-	position: absolute;
-	
-	
 }
-.projectdiv:hover{
-	background-color: #4A4848;
+.footer-text{
+	font-size: 0.5em;
 	text-align: center;
-	position: absolute;
-	
-	
 }
-.aboutdiv{
-	/*background-color: #000000;*/
-	text-align: center;
-	position: absolute;
-
-	
+#alternate-mail{
+	margin-top: -3em;
 }
-.aboutdiv:hover{
-	background-color: #4A4848;
-	text-align: center;
-	position: absolute;
-	
-	
-}
-
-#profileimage{
-	background-color: #EAE5E5;
-	height: 60%;
-	width: 60%;
-	position: relative;
-	margin-top: 3%;
-
-	
-}
-
-/*div.img-div{
-	margin-top: -20.2%;
-	height: 235px;
-	width: 235px;
-	position: relative;
-	margin-left: 0%;
-	margin-bottom: 5%;
-	border-radius: 50%;
-	background: rgb(34,34,34); /* for IE
-  	background: rgba(34,34,34,0.75);
-}
-.img-div:hover{
-	margin-top: -20.2%;
-	height: 235px;
-	width: 235px;
-	position: relative;
-	margin-left: 0%;
-	margin-bottom: 5%;
-	border-radius: 50%;
-	background: rgb(34,34,34); /* for IE 
-  	background: rgba(34,34,34,0.75);
-
-}*/
-
-.bodydiv{
-
-}
-
-.imagecoloumn{
-	margin-left: 6%;
-	margin-top: 4%;
-	margin-bottom: 4%;
-	position: relative;
-}
-.abouttextcoloumn{
-
-	margin-top: 3%;
-	margin-bottom: 4%;
-	position: relative;
-}
-
-.bubbles{
-	margin-left: 50%;
-	margin-top: 0%;
-}
-
-.resumebubble{
-	background-color: #83F2C2;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: -35%;
-	overflow: visible;
-	position: relative;
-
-}
-
-.resumebubble:hover{
-	background-color: #66BA96;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: -35%;
-	overflow: visible;
-	position: relative;
-
-}
-
-.projectsbubble{
-	background-color: #D5F283;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: -35%;
-	margin-left: 32%;
-	position: relative;
-}
-
-.projectsbubble:hover{
-	background-color: #B7CF74;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: -35%;
-	margin-left: 32%;
-	position: relative;
-}
-
-.contactbubble{
-	background-color: #8397F2;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: -35%;
-	margin-left: 65%;
-	position: relative;
-}
-
-.contactbubble:hover{
-	background-color: #627CF0;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: -35%;
-	margin-left: 65%;
-	position: relative;
-}
-
-.footerdiv{
-	background-color: #A6A6A1;
-	height: 200px;
-	margin-top: 5%;
+#primary-mail{
+	margin-top: -1em;
 }
