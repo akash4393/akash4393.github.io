@@ -1,3 +1,10 @@
+
+a:link, a:hover, a:visited, a:active{
+	text-decoration: none;
+	color: inherit;
+}
+
+
 .header-section{
 
 }
@@ -14,38 +21,40 @@
 }
 
 .menu-button{
-	text-align: center;
-	line-height: 7em;
-	position: relative;
-	font-family: Gadget, Arial Black, sans-serif; 
-	font-size: 120%; 
+	text-align: left;
+	line-height: 8.5em;
+	
+	font-family:  Arial , sans-serif; 
+	font-size: 1em; 
 	color: #5D5D5D;
 }
 .menu-button:hover{
 	transition: color 0.3s ease;
 	color: #89CFD4;
+	text-decoration: none;
 }
 #myNameInTitle{
 	line-height: 2.2em;
 	text-align: center;
 	
 	position: relative;
-	font-family: Helvetica, Arial, sans-serif; 
+	font-family: Gadget, Arial Black, sans-serif; 
 	font-style: bold; 
-	font-size: 4em; 
+	font-size: 2.5em; 
 	color: #5D5D5D;
 }
 
 #belowMyNameInTitle{
 
-	text-align: center;
-	font-family: Helvetica, Arial, sans-serif; 
-	font-style: bold; 
-	font-size: 0.4em; 
+	text-align: left;
+	font-family: Arial, sans-serif; 
+	font-style: italic; 
+	font-size: 1em; 
 	color: #5D5D5D; 
 	text-align: center; 
-	margin-top: -4.1em;
-	position: relative;
+	margin-top: -2.5em;
+	margin-left: 0.8em;
+	position: absolute;
 }
 
 .full-circle-1 {
