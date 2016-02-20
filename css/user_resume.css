@@ -84,8 +84,20 @@ a:link, a:hover, a:visited, a:active{
 	font-size: 1.2em;
 }
 
+.desktop-body-resume-text{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: #5D5D5D;
+	font-size: 3.4em;
+}
+
+.section-separator{
+	border-top-color: #5D5D5D;
+}
+
 .full-circle-1 {
- background-color: rgb(230,33,63);
+ background-color: rgb(202,53,83);
  height: 10em;
  -moz-border-radius:5em;
  -webkit-border-radius: 5em;
@@ -93,10 +105,10 @@ a:link, a:hover, a:visited, a:active{
  margin: 1em;
  
 }
-.full-circle-1:hover {
+/*.full-circle-1:hover {
 	transition: background-color 0.3s ease;
 	background-color: rgb(202,53,83);
-}
+}*/
 .full-circle-2 {
  background-color: rgb(107,217,222);
  height: 10em;
