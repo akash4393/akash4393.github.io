@@ -111,17 +111,17 @@ a:link, a:hover, a:visited, a:active{
 }*/
 .full-circle-2 {
  background-color: rgb(107,217,222);
- height: 10em;
- -moz-border-radius:5em;
- -webkit-border-radius: 5em;
- width: 10em;
+ height: 7em;
+ -moz-border-radius:3.5em;
+ -webkit-border-radius: 3.5em;
+ width: 7em;
  margin: 1em;
  
 }
-.full-circle-2:hover {
+/*.full-circle-2:hover {
 	transition: background-color 0.3s ease;
 	background-color: rgb(137,207,212);
-}
+}*/
 .full-circle-3 {
  background-color: rgb(226,221,26);
 height: 10em;
@@ -136,11 +136,19 @@ height: 10em;
 	background-color: rgb(206,201,46);
 }
 
-.text-inside-circle{
+.text-inside-circle-1{
 	line-height: 10em;
 	text-align: center;
 	font-family: Gadget, Arial Black, sans-serif;
 	font-size: 1em;
+	color: rgb(255,255,255);
+}
+
+.text-inside-circle-2{
+	line-height: 8em;
+	text-align: center;
+	font-family: Gadget, Arial Black, sans-serif;
+	font-size: 0.9em;
 	color: rgb(255,255,255);
 }
 
