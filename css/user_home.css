@@ -174,7 +174,7 @@ height: 10em;
 
 .footer-class{
 	background-color: rgb(202, 53, 83);
-	min-height: 100px;
+	min-height: 10em;
 }
 #phone-icon{
 	line-height: 2em;
@@ -195,32 +195,33 @@ height: 10em;
 	color: rgb(234,229,229);
 }
 .footer-text{
-	font-size: 0.5em;
+	font-size: 1em;
 	text-align: center;
 	color: rgb(232,228,228);
 }
 #footer-alternate-mail{
-	margin-top: -3.5em;;
+	line-height: 0em;
 	color: rgb(234,229,229);
 }
 #footer-primary-mail{
-	margin-top: -1em;;
+	/*margin-top: -1em;;*/
 	color: rgb(234,229,229);
 }
 #footer-primary{
-	margin-top: -1em;
+	/*margin-top: -1em;*/
 }
 #footer-googlevoice{
-	margin-top: -3.5em;
+	line-height: 0em;
+	/*margin-top: -3.5em;*/
 }
 #footer-linkedin{
-	margin-top: -1em;
+	/*margin-top: -1em;*/
 }
 #footer-twitter{
-	margin-top: -3.5em;
+	/*margin-top: -3.5em;*/
 }
 #footer-facebook{
-	margin-top: -3.5em;
+	/*margin-top: -3.5em;*/
 }
 
 
