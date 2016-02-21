@@ -23,13 +23,13 @@
                      <p style="margin-left: 0.4em;"><a href="index.html" class="menu-button">HOME</a></p>
                   </div>
                   <div class="col-md-1 col-xs-12 menu-button">
-                     <p style="margin-left: -0.9em;"><a href="index.html" class="menu-button">PROJECTS</a></p>
+                     <p style="margin-left: -0.9em;"><a href="projects.html" class="menu-button">PROJECTS</a></p>
                   </div>
                   <div class="col-md-1 col-xs-12 menu-button">
                      <p><a href="resume.html" class="menu-button">RESUME</a></p>
                   </div>
                   <div class="col-md-1 col-xs-12 menu-button">
-                     <p><a href="http://github.com/akash4393" class="menu-button">GITHUB</a></p>
+                     <p><a href="http://github.com/akash4393" class="menu-button" target="_blank">GITHUB</a></p>
                   </div>
                <!--</div>
             </div>-->
@@ -46,10 +46,10 @@
                      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
                   </button>
                   <ul class="dropdown-menu mobile-menu-dropdown" aria-labelledby="dropdownMenu1">
-                   <li><a href="#"><p class="mobile-menu-dropdown-text">Home</p></a></li>
-                   <li><a href="#"><p class="mobile-menu-dropdown-text">Project</p></a></li>
-                   <li><a href="#"><p class="mobile-menu-dropdown-text">Resume</p></a></li>
-                   <li><a href="#"><p class="mobile-menu-dropdown-text">Github</p></a></li>
+                   <li><a href="index.html"><p class="mobile-menu-dropdown-text">Home</p></a></li>
+                   <li><a href="projects.html"><p class="mobile-menu-dropdown-text">Project</p></a></li>
+                   <li><a href="resume.html"><p class="mobile-menu-dropdown-text">Resume</p></a></li>
+                   <li><a href="http://github.com/akash4393" target="_blank"><p class="mobile-menu-dropdown-text">Github</p></a></li>
                  </ul>
                </div>
                <div class="col-xs-9 col-xs-offset-1 mobile-menu-name-text">
@@ -80,20 +80,26 @@
             <div class="col-md-6 col-md-offset-1 col-xs-12">
                <div class="container-fluid">
                   <div class="row">
-                     <div class="col-md-11 col-md-offset-1 col-xs-12 page-header">
-                        <h1>Hi,</h1>
+                     <div class="col-md-11 col-md-offset-1 col-xs-12">
+                        <p class="desktop-body-hi-text">Hi,</p>
                      </div>
                   </div>
                   <div class="container-fluid">
                      <div class="row">
                         <div class="col-md-2 col-xs-12 full-circle-1">
-                           <p class="text-inside-circle">Projects</p>
+                           <a href="projects.html">
+                              <p class="text-inside-circle">Projects</p>
+                           </a>
                         </div>
                         <div class="col-md-2 col-xs-12 full-circle-2">
-                           <p class="text-inside-circle">Resume</p>   
+                           <a href="resume.html">
+                              <p class="text-inside-circle">Resume</p>   
+                           </a>
                         </div>
                         <div class="col-md-2 col-xs-12 full-circle-3">
-                           <p class="text-inside-circle">Github</p>
+                           <a href="http://github.com/akash4393" target="_blank">
+                              <p class="text-inside-circle">Github</p>
+                           </a>
                         </div>
                      </div>
                   </div>
@@ -115,6 +121,11 @@
 <!--Begin: Line break desktop only-->
       <br class="hidden-xs">
       <br class="hidden-xs"><br class="hidden-xs">
+      <br class="hidden-xs">
+      <br class="hidden-xs">
+      <br class="hidden-xs">
+      <br class="hidden-xs">
+      <br class="hidden-xs">
 <!--END: Line break desktop-->
 
 <!--Begin: Footer (For both mobile and desktop)-->
@@ -123,21 +134,23 @@
             <div class="col-md-2 col-md-offset-1 col-xs-12">
                <div id="phone-icon">
                   <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
-                  <p class="footer-text">(562)-787-5903</p>
+                  <p class="footer-text" id="footer-primary">Mobile: +1(562)-787-5903</p>
+                  <p class="footer-text" id="footer-googlevoice">Google: +1(562)-704-6365</p>
                </div>
             </div>
             <div class="col-md-2 col-md-offset-2 col-xs-12">
                <div id="mail-icon">
                   <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                  <p class="footer-text" id="primary-mail">akash4393@gmail.com</p>
-                  <p class="footer-text" id="alternate-mail">akash.singh@student.csulb.edu</p>
+                  <a href="mailto:akash4393@gmail.com"><p class="footer-text" id="footer-primary-mail">akash4393@gmail.com</p></a>
+                  <a href="mailto:akash.singh@student.csulb.edu"><p class="footer-text" id="footer-alternate-mail">akash.singh@student.csulb.edu</p></a>
                </div>
             </div>
             <div class="col-md-2 col-md-offset-2 col-xs-12">
                <div id="follow-icon">
                   <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-                  <p class="footer-text">Twitter Linkedin Portfolium</p>
-                  
+                  <p class="footer-text" id="footer-linkedin">
+                  <a href="http://linkedin.com/in/akash4393" target="_blank"><span id="footer-linkedin">Linkedin</span></a> | <a href="http://twitter.com/akash4393" target="_blank"><span id="footer-twitter">Twitter</span></a> | <a href="http://facebook.com/akash4393" target="_blank"><span id="footer-facebook">Facebook</span></a>
+                  </p>
                </div>
             </div>
             <div class="col-md-0 col-md-offset-1 col-xs-0"></div>
@@ -147,12 +160,15 @@
 
 <!--Begin: Line break desktop only-->
       <br class="hidden-xs">
-      <br class="hidden-xs">
 <!--END: Line break-->
 
+<!--Begin: Scripts-->
       <!-- jQuery  -->
       <script src="https://code.jquery.com/jquery.js"></script>
       <!-- bootstrap-min -->
       <script src="js/bootstrap.min.js"></script>
+<!--END: Scripts-->
+
+
    </body>
 </html>

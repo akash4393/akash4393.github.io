@@ -84,7 +84,7 @@ a:link, a:hover, a:visited, a:active{
 	font-size: 1.2em;
 }
 
-.desktop-body-resume-text{
+.desktop-body-projects-text{
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	font-style: italic;
@@ -92,12 +92,6 @@ a:link, a:hover, a:visited, a:active{
 	font-size: 3.4em;
 }
 
-#body-resume-download{
-	font-weight: 400;
-	font-style: italic;
-	font-size: 0.3em;
-
-}
 .section-separator{
 	border-top-color: #5D5D5D;
 }
@@ -124,7 +118,23 @@ a:link, a:hover, a:visited, a:active{
  margin: 1em;
  
 }
+/*.full-circle-2:hover {
+	transition: background-color 0.3s ease;
+	background-color: rgb(137,207,212);
+}*/
+.full-circle-3 {
+ background-color: rgb(226,221,26);
+height: 10em;
+ -moz-border-radius:5em;
+ -webkit-border-radius: 5em;
+ width: 10em;
+ margin: 1em;
 
+}
+.full-circle-3:hover {
+	transition: background-color 0.3s ease;
+	background-color: rgb(206,201,46);
+}
 
 .text-inside-circle-1{
 	line-height: 10em;
@@ -142,8 +152,22 @@ a:link, a:hover, a:visited, a:active{
 	color: rgb(255,255,255);
 }
 
+/*#carousel-generic{
+	height: 7em;
+}*/
 
-
+.circle-image{
+	position: center;
+	background-image: url('../src/my_img.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+	width: 26em;
+ 	height: 26em;
+ 	-moz-border-radius:13em;
+ 	-webkit-border-radius: 13em;
+ 	width: 26em;
+}
 
 #hi-text{
 	text-align: center;
