@@ -9,17 +9,6 @@ a:link, a:hover, a:visited, a:active{
 
 }
 
-/*.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}*/
-
-#menu{
-	margin-left: -6%;
-}
-
 .menu-button{
 	text-align: left;
 	line-height: 8.5em;
@@ -104,10 +93,7 @@ a:link, a:hover, a:visited, a:active{
  margin: 1em;
  
 }
-/*.full-circle-1:hover {
-	transition: background-color 0.3s ease;
-	background-color: rgb(202,53,83);
-}*/
+
 .full-circle-2 {
  background-color: rgb(107,217,222);
  height: 7em;
@@ -117,23 +103,7 @@ a:link, a:hover, a:visited, a:active{
  margin: 1em;
  
 }
-/*.full-circle-2:hover {
-	transition: background-color 0.3s ease;
-	background-color: rgb(137,207,212);
-}*/
-.full-circle-3 {
- background-color: rgb(226,221,26);
-height: 10em;
- -moz-border-radius:5em;
- -webkit-border-radius: 5em;
- width: 10em;
- margin: 1em;
 
-}
-.full-circle-3:hover {
-	transition: background-color 0.3s ease;
-	background-color: rgb(206,201,46);
-}
 
 .text-inside-circle-1{
 	line-height: 10em;
@@ -151,31 +121,6 @@ height: 10em;
 	color: rgb(255,255,255);
 }
 
-/*#carousel-generic{
-	height: 7em;
-}*/
-
-.circle-image{
-	position: center;
-	background-image: url('../src/my_img.jpg');
-	background-repeat: no-repeat;
-    background-size: cover;
-    overflow:hidden;
-	width: 26em;
- 	height: 26em;
- 	-moz-border-radius:13em;
- 	-webkit-border-radius: 13em;
- 	width: 26em;
-}
-
-#hi-text{
-	text-align: center;
-	position: relative;
-	font-family: Helvetica, Arial, sans-serif; 
-	font-style: bold; 
-	font-size: 300%; 
-	color: #5D5D5D;
-}
 
 .menudiv{
 	background-color: #A6A6A1;

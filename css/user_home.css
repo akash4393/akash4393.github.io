@@ -9,17 +9,6 @@ a:link, a:hover, a:visited, a:active{
 
 }
 
-/*.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}*/
-
-#menu{
-	margin-left: -6%;
-}
-
 .menu-button{
 	text-align: left;
 	line-height: 8.5em;
