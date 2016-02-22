@@ -6,12 +6,13 @@ a:link, a:hover, a:visited, a:active{
 
 
 .header-section{
-
+	padding-left: 8em;
+	padding-right: 8em;
 }
 
 .menu-button{
 	text-align: left;
-	line-height: 8.5em;
+	line-height: 7.8em;
 	
 	font-family:  Arial , sans-serif; 
 	font-size: 1em; 
@@ -23,8 +24,7 @@ a:link, a:hover, a:visited, a:active{
 	text-decoration: none;
 }
 #myNameInTitle{
-	line-height: 2em;
-	text-align: center;
+	text-align: left;
 	position: relative;
 	font-family: Gadget, Arial Black, sans-serif; 
 	font-style: bold; 
@@ -34,8 +34,8 @@ a:link, a:hover, a:visited, a:active{
 
 #belowMyNameInTitle{
 	
-	margin-left: 0.7em;
-	line-height: 0em;
+	
+	line-height: 0.5em;
 	text-align: left;
 	font-family: Arial, sans-serif; 
 	font-style: italic; 
@@ -145,6 +145,35 @@ a:link, a:hover, a:visited, a:active{
    
 }
 
+.resume-text-header{
+	font-family:  Arial , sans-serif; 
+	font-size: 1.25em; 
+	color: #5D5D5D;
+	font-weight: 700;
+}
+.resume-text-date{
+	padding-left: 2em;
+	font-family:  Arial , sans-serif; 
+	font-size: 1.05em; 
+	color: #5D5D5D;
+	font-weight: 500;
+	font-style: italic;
+}
+.resume-text-description{
+	font-family:  Arial , sans-serif; 
+	font-size: 1em; 
+	color: #5D5D5D;
+	font-weight: 400;
+}
+
+.resume-text-summary{
+	font-family:  Arial , sans-serif; 
+	font-size: 1.2em; 
+	color: #5D5D5D;
+	font-weight: 500;
+	/*line-height: 2em;*/
+}
+
 .footer-class{
 	background-color: rgb(202, 53, 83);
 	min-height: 10em;
@@ -158,13 +187,13 @@ a:link, a:hover, a:visited, a:active{
 #mail-icon{
 	line-height: 2em;
 	font-size: 2em;
-	text-align: center;;
+	text-align: center;
 	color: rgb(234,229,229);
 }
 #follow-icon{
 	line-height: 2em;
 	font-size: 2em;
-	text-align: center;;
+	text-align: center;
 	color: rgb(234,229,229);
 }
 .footer-text{

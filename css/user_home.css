@@ -6,12 +6,13 @@ a:link, a:hover, a:visited, a:active{
 
 
 .header-section{
-
+	padding-left: 8em;
+	padding-right: 8em;
 }
 
 .menu-button{
 	text-align: left;
-	line-height: 8.5em;
+	line-height: 7.8em;
 	
 	font-family:  Arial , sans-serif; 
 	font-size: 1em; 
@@ -23,8 +24,7 @@ a:link, a:hover, a:visited, a:active{
 	text-decoration: none;
 }
 #myNameInTitle{
-	line-height: 2em;
-	text-align: center;
+	text-align: left;
 	position: relative;
 	font-family: Gadget, Arial Black, sans-serif; 
 	font-style: bold; 
@@ -34,8 +34,8 @@ a:link, a:hover, a:visited, a:active{
 
 #belowMyNameInTitle{
 	
-	margin-left: 0.7em;
-	line-height: 0em;
+	
+	line-height: 0.5em;
 	text-align: left;
 	font-family: Arial, sans-serif; 
 	font-style: italic; 
