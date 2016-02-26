@@ -82,11 +82,12 @@ a:link, a:hover, a:visited, a:active{
 
 .full-circle-1 {
  background-color: rgb(230,33,63);
- height: 10em;
- -moz-border-radius:5em;
- -webkit-border-radius: 5em;
- width: 10em;
+ height: 9em;
+ -moz-border-radius:4.5em;
+ -webkit-border-radius: 4.5em;
+ width: 9em;
  margin: 1em;
+ margin-left: 3em;
  
 }
 .full-circle-1:hover {
@@ -95,11 +96,12 @@ a:link, a:hover, a:visited, a:active{
 }
 .full-circle-2 {
  background-color: rgb(107,217,222);
- height: 10em;
- -moz-border-radius:5em;
- -webkit-border-radius: 5em;
- width: 10em;
+ height: 9em;
+ -moz-border-radius:4.5em;
+ -webkit-border-radius: 4.5em;
+ width: 9em;
  margin: 1em;
+ margin-left: 1em;
  
 }
 .full-circle-2:hover {
@@ -108,11 +110,12 @@ a:link, a:hover, a:visited, a:active{
 }
 .full-circle-3 {
  background-color: rgb(226,221,26);
-height: 10em;
- -moz-border-radius:5em;
- -webkit-border-radius: 5em;
- width: 10em;
+height: 9em;
+ -moz-border-radius:4.5em;
+ -webkit-border-radius: 4.5em;
+ width: 9em;
  margin: 1em;
+ margin-left: 1em;
 
 }
 .full-circle-3:hover {
@@ -121,7 +124,7 @@ height: 10em;
 }
 
 .text-inside-circle{
-	line-height: 10em;
+	line-height: 9em;
 	text-align: center;
 	font-family: Gadget, Arial Black, sans-serif;
 	font-size: 1em;
@@ -130,16 +133,17 @@ height: 10em;
 
 
 .circle-image{
+	margin-top: 2.5em;
 	position: center;
 	background-image: url('../src/my_img.jpg');
 	background-repeat: no-repeat;
     background-size: cover;
     overflow:hidden;
-	width: 26em;
- 	height: 26em;
- 	-moz-border-radius:13em;
- 	-webkit-border-radius: 13em;
- 	width: 26em;
+	width: 22em;
+ 	height: 22em;
+ 	-moz-border-radius:11em;
+ 	-webkit-border-radius: 11em;
+ 	width: 22em;
 }
 
 
@@ -158,6 +162,14 @@ height: 10em;
 }
 #body-container{
 	
+}
+
+.home-text-summary{
+	font-family:  Arial , sans-serif; 
+	font-size: 1.2em; 
+	color: #5D5D5D;
+	font-weight: 500;
+	/*line-height: 2em;*/
 }
 
 .footer-class{
