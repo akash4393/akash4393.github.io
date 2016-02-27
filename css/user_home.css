@@ -135,7 +135,7 @@ height: 9em;
 .circle-image{
 	margin-top: 2.5em;
 	position: center;
-	background-image: url('../src/my_img.jpg');
+	background-image: url('../src/my_img.png');
 	background-repeat: no-repeat;
     background-size: cover;
     overflow:hidden;
@@ -216,7 +216,7 @@ height: 9em;
 }
 #footer-linkedin{
 	/*margin-top: -1em;*/
-	
+
 }
 #footer-twitter{
 	/*margin-top: -3.5em;*/
