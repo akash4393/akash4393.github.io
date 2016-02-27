@@ -136,6 +136,28 @@ a:link, a:hover, a:visited, a:active{
    
 }
 
+.carousel-caption-override{
+	color: #5D5D5D;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.carousel-indicators li {
+  background-color: #5D5D5D;
+  /*background-color: rgba(70,70,70,.25);*/
+}
+
+.carousel-indicators .active {
+  background-color: #5D5D5D;
+}
+
+
+.desktop-body-text{
+	font-family:  Arial , sans-serif; 
+	font-size: 1em; 
+	color: #5D5D5D;
+	font-weight: 400;
+}
+
 .footer-class{
 	background-color: rgb(202, 53, 83);
 	min-height: 10em;
