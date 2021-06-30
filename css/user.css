@@ -176,6 +176,15 @@ height: 10em;
 	background-color: rgb(202, 53, 83);
 	min-height: 100px;
 }
+
+@media only screen and (min-width: 996px) and (min-height: 768px) {
+	.footer-class{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+}
+
 #phone-icon{
 	line-height: 2em;
 	font-size: 2em;
